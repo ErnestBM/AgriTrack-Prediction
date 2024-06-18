@@ -8,7 +8,7 @@
       }
     },
     {
-      "src": "/czarny_kot/wsgi.py",
+      "src": "/prediction/wsgi.py",
       "use": "@vercel/python",
       "config": { "maxLambdaSize": "15mb" }
     }
