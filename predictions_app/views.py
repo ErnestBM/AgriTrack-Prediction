@@ -5,6 +5,8 @@ import numpy as np
 import json
 import requests
 from sklearn.preprocessing import MinMaxScaler
+import sqlite3
+
 
 from .utils import replace_comma, convert_to_numeric, handle_missing_values, normalize_data, one_hot_encode_with_unique_values, split_data, create_model, download_weights, predict_future_with_simulation
 
